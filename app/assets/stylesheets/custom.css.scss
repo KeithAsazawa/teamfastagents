@@ -69,3 +69,82 @@ header {
 		}
 	}
 }
+
+/* BODY */
+
+.container {
+	width: 100%;
+	text-align: center;
+}
+
+.container img {
+	margin: 75px 0px;
+}
+
+/* FOOTER */
+
+.footer {
+	min-height: 285px;
+	background-color: #4D4D4D;
+}
+
+.footer-body {
+	width: 80%;
+	height: 65px;
+	margin: 0px auto;
+	border-bottom: 1px solid #EE5B34;
+}
+
+.social-media li {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	float: left;
+	margin-right: 5px;
+	margin-top: 22px;
+	margin-left: 0px;
+}
+
+.footer-nav li {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-family: 'Open Sans';
+	float: right;
+	margin-top: 22px;
+	margin-right: 35px;
+}
+
+.contact {
+	margin-top: 40px;
+}
+
+.contact-info {
+	border-right: 1px solid #EE5B34;
+	padding-right: 25px;
+	td {
+		display: block;
+		color: white;
+		border-right: 1px solid #EE5B34;
+		font-family: 'Open Sans';
+		font-size: 80%;
+		padding-right: 20px;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.footerUA {
+	height: 50px;
+	border-top: 1px solid #EE5B34;
+	margin-top: 60px;
+	h6 {
+		color: white;
+		font-family: 'Open Sans';
+		font-size: 50%;
+		margin-top: 18px;
+	}
+}
