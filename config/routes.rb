@@ -1,15 +1,11 @@
 Teamfastagents::Application.routes.draw do
 
   root :to => 'pages#home'
-  get "pages/home"
 
-  get "pages/about"
-
-  get "pages/contact"
-
-  get "pages/listings"
-
-  get "pages/blog"
+  get 'about' => 'pages#about'
+  get 'blog' => 'pages#blog'
+  get 'contact' => 'pages#contact'
+  get 'listings' => 'pages#listings'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
